@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'ToDoList.dart';
-import 'package:flutter/cupertino.dart';
 import 'BottomNavigation.dart';
 import 'radioButton.dart';
 
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: BottomNagivation(),
+      home: BottomNavigation(),
     );
   }
 }
